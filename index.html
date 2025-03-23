@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-wrapper">
+            <h3 class="todo-list-title">To-Do List</h3>
+            <form class="input-wrapper" id="inner-wrapper">
+                <input type="text" id="input">
+                <button id="add-button">Add</button>
+            </form>
+
+            <!-- add class and id to ul -->
+            <ul class="list" id="list">
+                <li>read book <span class="delete"></span></li>
+                <li class="checked">do the math homework <span class="delete"></span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
